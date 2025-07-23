@@ -1,0 +1,52 @@
+/* CSSの基本 - 見た目を整える */
+
+/* ページ全体のスタイル */
+body {
+    font-family: Arial, sans-serif;  /* フォント */
+    text-align: center;              /* 中央揃え */
+    padding: 50px;                   /* 余白 */
+    background-color: #f0f0f0;       /* 背景色 */
+}
+
+/* 見出しのスタイル */
+h1 {
+    color: #333;                     /* 文字色 */
+    margin-bottom: 30px;             /* 下の余白 */
+}
+
+/* 入力欄のスタイル */
+input {
+    padding: 10px;                   /* 内側の余白 */
+    font-size: 16px;                 /* 文字サイズ */
+    width: 300px;                    /* 幅 */
+    border: 2px solid #ddd;          /* 枠線 */
+    border-radius: 5px;              /* 角を丸く */
+}
+
+/* ボタンのスタイル */
+button {
+    padding: 10px 20px;              /* 内側の余白 */
+    font-size: 16px;                 /* 文字サイズ */
+    background-color: #4CAF50;       /* 背景色 */
+    color: white;                    /* 文字色 */
+    border: none;                    /* 枠線なし */
+    border-radius: 5px;              /* 角を丸く */
+    cursor: pointer;                 /* カーソルを手の形に */
+    margin-left: 10px;               /* 左の余白 */
+}
+
+/* ボタンにマウスを乗せた時 */
+button:hover {
+    background-color: #45a049;       /* 少し暗い緑に */
+}
+
+/* 結果表示エリア */
+#result {
+    margin-top: 30px;                /* 上の余白 */
+    padding: 20px;                   /* 内側の余白 */
+    background-color: white;         /* 背景色 */
+    border-radius: 10px;             /* 角を丸く */
+    min-height: 50px;                /* 最小の高さ */
+    font-size: 20px;                 /* 文字サイズ */
+    color: #333;                     /* 文字色 */
+}

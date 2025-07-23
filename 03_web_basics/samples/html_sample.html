@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>HTMLタグのサンプル集</title>
+</head>
+<body>
+    <!-- 見出しタグ（h1〜h6） -->
+    <h1>これは一番大きい見出し（h1）</h1>
+    <h2>これは二番目の見出し（h2）</h2>
+    <h3>これは三番目の見出し（h3）</h3>
+
+    <!-- 段落タグ -->
+    <p>これは段落です。文章を書くときは<strong>pタグ</strong>を使います。</p>
+    <p>段落を分けたいときは、新しいpタグを使います。</p>
+
+    <!-- 改行 -->
+    <p>文章の途中で<br>改行したいときは<br>brタグを使います。</p>
+
+    <!-- 強調 -->
+    <p><strong>これは強い強調（太字）</strong></p>
+    <p><em>これは軽い強調（斜体）</em></p>
+
+    <!-- リンク -->
+    <h2>リンクの例</h2>
+    <a href="https://www.google.com">Googleへのリンク</a><br>
+    <a href="index.html">同じフォルダ内のファイルへのリンク</a><br>
+    <a href="https://www.yahoo.co.jp" target="_blank">新しいタブで開くリンク</a>
+
+    <!-- 画像 -->
+    <h2>画像の例</h2>
+    <img src="https://via.placeholder.com/300x200" alt="サンプル画像">
+    <p>↑これは仮の画像です。実際は画像ファイルのパスを指定します。</p>
+    <img src="https://picsum.photos/200/150" alt="ランダム画像">
+    <p>↑これはランダムな画像を表示するサービスです。</p>
+
+    <!-- リスト（箇条書き） -->
+    <h2>リストの例</h2>
+    
+    <h3>番号なしリスト</h3>
+    <ul>
+        <li>りんご</li>
+        <li>みかん</li>
+        <li>ぶどう</li>
+    </ul>
+
+    <h3>番号付きリスト</h3>
+    <ol>
+        <li>朝起きる</li>
+        <li>顔を洗う</li>
+        <li>朝ごはんを食べる</li>
+    </ol>
+
+    <!-- テーブル（表） -->
+    <h2>テーブルの例</h2>
+    <table border="1">
+        <tr>
+            <th>名前</th>
+            <th>年齢</th>
+            <th>職業</th>
+        </tr>
+        <tr>
+            <td>田中太郎</td>
+            <td>25歳</td>
+            <td>エンジニア</td>
+        </tr>
+        <tr>
+            <td>鈴木花子</td>
+            <td>30歳</td>
+            <td>デザイナー</td>
+        </tr>
+    </table>
+
+    <!-- フォーム要素 -->
+    <h2>フォームの例</h2>
+    <form>
+        <label>名前：</label>
+        <input type="text" placeholder="名前を入力"><br><br>
+        
+        <label>メール：</label>
+        <input type="email" placeholder="メールアドレス"><br><br>
+        
+        <label>パスワード：</label>
+        <input type="password" placeholder="パスワード"><br><br>
+        
+        <label>性別：</label>
+        <input type="radio" name="gender" value="male">男性
+        <input type="radio" name="gender" value="female">女性<br><br>
+        
+        <label>趣味：</label>
+        <input type="checkbox" value="sports">スポーツ
+        <input type="checkbox" value="music">音楽
+        <input type="checkbox" value="reading">読書<br><br>
+        
+        <label>コメント：</label><br>
+        <textarea rows="4" cols="50" placeholder="コメントを入力"></textarea><br><br>
+        
+        <label>都道府県：</label>
+        <select>
+            <option>選択してください</option>
+            <option>東京都</option>
+            <option>大阪府</option>
+            <option>愛知県</option>
+        </select><br><br>
+        
+        <button type="submit">送信する</button>
+        <button type="reset">リセット</button>
+    </form>
+
+    <!-- その他の便利なタグ -->
+    <h2>その他の便利なタグ</h2>
+    
+    <h3>横線</h3>
+    <hr>
+    
+    <h3>引用</h3>
+    <blockquote>
+        これは引用文です。誰かの言葉を引用するときに使います。
+    </blockquote>
+    
+    <h3>コード</h3>
+    <p>インラインコード：<code>console.log('Hello')</code></p>
+    <pre><code>// コードブロック
+function hello() {
+    console.log('Hello, World!');
+}</code></pre>
+
+    <!-- コメントの書き方 -->
+    <!-- これはHTMLのコメントです。ブラウザには表示されません -->
+
+    <!-- ブロック要素とインライン要素 -->
+    <h2>要素の種類</h2>
+    <div style="background-color: #f0f0f0; padding: 10px;">
+        <p>divタグは<span style="color: red;">ブロック要素</span>です（箱のようなもの）</p>
+        <p>spanタグは<span style="color: blue;">インライン要素</span>です（文字の一部を装飾）</p>
+    </div>
+
+</body>
+</html>
